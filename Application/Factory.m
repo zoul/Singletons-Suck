@@ -12,6 +12,20 @@
 
 #pragma mark Private Components
 
+/*
+    If the controller’s dependency on the Factory bugs you, note that if the controller
+    just needs to create one or two other objects, you can loosen the coupling even more
+    by declaring builder properties in the controller:
+
+    typedev void (^ControllerBuilder)(void);
+    @property(copy) ControllerBuilder childControllerBuilder;
+
+    …and then in the factory:
+
+    [controller setChildControllerBuilder:^{ [self buildChildController]; }];
+
+    This way the master controller won’t even know that some Factory exists.
+*/
 - (UIViewController*) buildMainController
 {
     MasterController *controller = [[MasterController alloc] initWithNibName:nil bundle:nil];
