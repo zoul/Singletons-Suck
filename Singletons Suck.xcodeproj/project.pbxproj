@@ -17,6 +17,7 @@
 		0D07718814F78652004617FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D07718414F78652004617FA /* AppDelegate.m */; };
 		0D07718914F78652004617FA /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D07718614F78652004617FA /* Factory.m */; };
 		0D07718A14F78652004617FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D07718714F78652004617FA /* main.m */; };
+		0D07719014F78883004617FA /* Logger.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D07718F14F78883004617FA /* Logger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		0D07718714F78652004617FA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Application/main.m; sourceTree = SOURCE_ROOT; };
 		0D07718B14F7865B004617FA /* Singletons Suck-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Singletons Suck-Info.plist"; sourceTree = "<group>"; };
 		0D07718C14F7865B004617FA /* Singletons Suck-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Singletons Suck-Prefix.pch"; sourceTree = "<group>"; };
+		0D07718E14F78883004617FA /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Logger.h; path = Application/Logger.h; sourceTree = SOURCE_ROOT; };
+		0D07718F14F78883004617FA /* Logger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Logger.m; path = Application/Logger.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				0D07716E14F784AB004617FA /* Controllers */,
-				0D07715114F783A9004617FA /* Singletons Suck */,
+				0D07715114F783A9004617FA /* Application */,
 				0D07716514F783E7004617FA /* Supporting Files */,
 				0D07714A14F783A9004617FA /* Frameworks */,
 				0D07714814F783A9004617FA /* Products */,
@@ -82,15 +85,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		0D07715114F783A9004617FA /* Singletons Suck */ = {
+		0D07715114F783A9004617FA /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				0D07718E14F78883004617FA /* Logger.h */,
+				0D07718F14F78883004617FA /* Logger.m */,
 				0D07718314F78652004617FA /* AppDelegate.h */,
 				0D07718414F78652004617FA /* AppDelegate.m */,
 				0D07718514F78652004617FA /* Factory.h */,
 				0D07718614F78652004617FA /* Factory.m */,
 				0D07718714F78652004617FA /* main.m */,
 			);
+			name = Application;
 			path = "Singletons Suck";
 			sourceTree = "<group>";
 		};
@@ -183,6 +189,7 @@
 				0D07718814F78652004617FA /* AppDelegate.m in Sources */,
 				0D07718914F78652004617FA /* Factory.m in Sources */,
 				0D07718A14F78652004617FA /* main.m in Sources */,
+				0D07719014F78883004617FA /* Logger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
