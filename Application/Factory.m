@@ -57,6 +57,14 @@
 
 #pragma mark Initialization
 
+/*
+    Note that since there’s just one instance of the Factory in the app, the logger instance
+    that we create below is effectively a singleton. The big difference is that there’s no explicit
+    code in the Logger class that would enforce the single instance. When you get rid of the
+    explicit singleton code, you may still easily share a common instance between your app’s
+    object, but at the same time you can for example create several isolated instances of the
+    object when running tests.
+*/
 - (id) init
 {
     self = [super init];
