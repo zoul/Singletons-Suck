@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D07714C14F783A9004617FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D07714B14F783A9004617FA /* UIKit.framework */; };
+		0D07714E14F783A9004617FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D07714D14F783A9004617FA /* Foundation.framework */; };
+		0D07715014F783A9004617FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D07714F14F783A9004617FA /* CoreGraphics.framework */; };
+		0D07717F14F7864B004617FA /* ChildController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D07717A14F7864B004617FA /* ChildController.m */; };
+		0D07718014F7864B004617FA /* ChildController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D07717B14F7864B004617FA /* ChildController.xib */; };
+		0D07718114F7864B004617FA /* MasterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D07717D14F7864B004617FA /* MasterController.m */; };
+		0D07718214F7864B004617FA /* MasterController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0D07717E14F7864B004617FA /* MasterController.xib */; };
+		0D07718814F78652004617FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D07718414F78652004617FA /* AppDelegate.m */; };
+		0D07718914F78652004617FA /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D07718614F78652004617FA /* Factory.m */; };
+		0D07718A14F78652004617FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D07718714F78652004617FA /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D07714714F783A9004617FA /* Singletons Suck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Singletons Suck.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D07714B14F783A9004617FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0D07714D14F783A9004617FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0D07714F14F783A9004617FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0D07717914F7864B004617FA /* ChildController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ChildController.h; path = Controllers/ChildController.h; sourceTree = "<group>"; };
+		0D07717A14F7864B004617FA /* ChildController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ChildController.m; path = Controllers/ChildController.m; sourceTree = "<group>"; };
+		0D07717B14F7864B004617FA /* ChildController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ChildController.xib; path = Controllers/ChildController.xib; sourceTree = "<group>"; };
+		0D07717C14F7864B004617FA /* MasterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MasterController.h; path = Controllers/MasterController.h; sourceTree = "<group>"; };
+		0D07717D14F7864B004617FA /* MasterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MasterController.m; path = Controllers/MasterController.m; sourceTree = "<group>"; };
+		0D07717E14F7864B004617FA /* MasterController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MasterController.xib; path = Controllers/MasterController.xib; sourceTree = "<group>"; };
+		0D07718314F78652004617FA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Application/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		0D07718414F78652004617FA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Application/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		0D07718514F78652004617FA /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Factory.h; path = Application/Factory.h; sourceTree = SOURCE_ROOT; };
+		0D07718614F78652004617FA /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Factory.m; path = Application/Factory.m; sourceTree = SOURCE_ROOT; };
+		0D07718714F78652004617FA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Application/main.m; sourceTree = SOURCE_ROOT; };
+		0D07718B14F7865B004617FA /* Singletons Suck-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Singletons Suck-Info.plist"; sourceTree = "<group>"; };
+		0D07718C14F7865B004617FA /* Singletons Suck-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Singletons Suck-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D07714414F783A9004617FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D07714C14F783A9004617FA /* UIKit.framework in Frameworks */,
+				0D07714E14F783A9004617FA /* Foundation.framework in Frameworks */,
+				0D07715014F783A9004617FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D07713C14F783A9004617FA = {
+			isa = PBXGroup;
+			children = (
+				0D07716E14F784AB004617FA /* Controllers */,
+				0D07715114F783A9004617FA /* Singletons Suck */,
+				0D07716514F783E7004617FA /* Supporting Files */,
+				0D07714A14F783A9004617FA /* Frameworks */,
+				0D07714814F783A9004617FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D07714814F783A9004617FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D07714714F783A9004617FA /* Singletons Suck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D07714A14F783A9004617FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0D07714B14F783A9004617FA /* UIKit.framework */,
+				0D07714D14F783A9004617FA /* Foundation.framework */,
+				0D07714F14F783A9004617FA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0D07715114F783A9004617FA /* Singletons Suck */ = {
+			isa = PBXGroup;
+			children = (
+				0D07718314F78652004617FA /* AppDelegate.h */,
+				0D07718414F78652004617FA /* AppDelegate.m */,
+				0D07718514F78652004617FA /* Factory.h */,
+				0D07718614F78652004617FA /* Factory.m */,
+				0D07718714F78652004617FA /* main.m */,
+			);
+			path = "Singletons Suck";
+			sourceTree = "<group>";
+		};
+		0D07716514F783E7004617FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D07718B14F7865B004617FA /* Singletons Suck-Info.plist */,
+				0D07718C14F7865B004617FA /* Singletons Suck-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0D07716E14F784AB004617FA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0D07717914F7864B004617FA /* ChildController.h */,
+				0D07717A14F7864B004617FA /* ChildController.m */,
+				0D07717B14F7864B004617FA /* ChildController.xib */,
+				0D07717C14F7864B004617FA /* MasterController.h */,
+				0D07717D14F7864B004617FA /* MasterController.m */,
+				0D07717E14F7864B004617FA /* MasterController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D07714614F783A9004617FA /* Singletons Suck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D07715F14F783A9004617FA /* Build configuration list for PBXNativeTarget "Singletons Suck" */;
+			buildPhases = (
+				0D07714314F783A9004617FA /* Sources */,
+				0D07714414F783A9004617FA /* Frameworks */,
+				0D07714514F783A9004617FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Singletons Suck";
+			productName = "Singletons Suck";
+			productReference = 0D07714714F783A9004617FA /* Singletons Suck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D07713E14F783A9004617FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 0D07714114F783A9004617FA /* Build configuration list for PBXProject "Singletons Suck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D07713C14F783A9004617FA;
+			productRefGroup = 0D07714814F783A9004617FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D07714614F783A9004617FA /* Singletons Suck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D07714514F783A9004617FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D07718014F7864B004617FA /* ChildController.xib in Resources */,
+				0D07718214F7864B004617FA /* MasterController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D07714314F783A9004617FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D07717F14F7864B004617FA /* ChildController.m in Sources */,
+				0D07718114F7864B004617FA /* MasterController.m in Sources */,
+				0D07718814F78652004617FA /* AppDelegate.m in Sources */,
+				0D07718914F78652004617FA /* Factory.m in Sources */,
+				0D07718A14F78652004617FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D07715D14F783A9004617FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0D07715E14F783A9004617FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D07716014F783A9004617FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Singletons Suck-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "Singletons Suck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0D07716114F783A9004617FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Singletons Suck-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				INFOPLIST_FILE = "Singletons Suck-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D07714114F783A9004617FA /* Build configuration list for PBXProject "Singletons Suck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D07715D14F783A9004617FA /* Debug */,
+				0D07715E14F783A9004617FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D07715F14F783A9004617FA /* Build configuration list for PBXNativeTarget "Singletons Suck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D07716014F783A9004617FA /* Debug */,
+				0D07716114F783A9004617FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D07713E14F783A9004617FA /* Project object */;
+}

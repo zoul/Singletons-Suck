@@ -1,0 +1,2 @@
+@interface ChildController : UIViewController
+@end
