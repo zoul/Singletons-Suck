@@ -3,7 +3,6 @@
 #import "Factory.h"
 
 @implementation MasterController
-@synthesize factory;
 
 - (void) viewDidLoad
 {
@@ -18,7 +17,7 @@
     // and if the initialization code for the child controller changes, the code below stays.
     // In certain cases we don’t even have to know the precise type of the child controller.
     // This is encapsulation in practice.
-    [[self navigationController] pushViewController:[factory buildChildController] animated:YES];
+    [[self navigationController] pushViewController:[_factory buildChildController] animated:YES];
 }
 
 @end

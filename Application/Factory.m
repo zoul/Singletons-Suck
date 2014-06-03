@@ -8,7 +8,6 @@
 @end
 
 @implementation Factory
-@synthesize logger;
 
 #pragma mark Private Components
 
@@ -43,13 +42,14 @@
 - (ChildController*) buildChildController
 {
     ChildController *controller = [[ChildController alloc] initWithNibName:nil bundle:nil];
-    [controller setLogger:logger];
+    [controller setLogger:_logger];
     return controller;
 }
 
 - (UIWindow*) buildMainWindow
 {
     CGRect screenFrame = [[UIScreen mainScreen] bounds];
+    NSLog(@"%@", NSStringFromCGRect(screenFrame));
     UIWindow *window = [[UIWindow alloc] initWithFrame:screenFrame];
     [window setRootViewController:[self buildNavigationStack]];
     return window;

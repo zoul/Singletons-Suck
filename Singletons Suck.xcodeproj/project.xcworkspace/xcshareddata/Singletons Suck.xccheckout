@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BF572ED4-A2BB-44BD-9A62-20944685F3AB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Singletons Suck</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>680AD197-902A-422C-8CAA-8F439D2CE1ED</key>
+		<string>ssh://github.com/zoul/Singletons-Suck.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Singletons Suck.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>680AD197-902A-422C-8CAA-8F439D2CE1ED</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/zoul/Singletons-Suck.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>680AD197-902A-422C-8CAA-8F439D2CE1ED</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>680AD197-902A-422C-8CAA-8F439D2CE1ED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Singletons Suck</string>
+		</dict>
+	</array>
+</dict>
+</plist>

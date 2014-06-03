@@ -2,7 +2,6 @@
 #import "Logger.h"
 
 @implementation ChildController
-@synthesize logger;
 
 - (void) viewDidLoad
 {
@@ -13,7 +12,7 @@
 - (void) viewDidAppear: (BOOL) animated
 {
     [super viewDidAppear:animated];
-    [logger log:@"Child view appeared (animated: %i).", animated];
+    [_logger log:@"Child view appeared (animated: %i).", animated];
 }
 
 @end
